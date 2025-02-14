@@ -1,0 +1,127 @@
+@import '../global.css';
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-white);
+    margin-top: 5rem;
+}
+
+.title{
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.0rem;
+}
+.title-left{
+    color: var(--color-light-5);
+    text-align: left;
+    font-size: 2.0rem;
+}
+.title-left p{
+    color: var(--color-light-5);
+    font-size: 1.5rem;
+    max-width: 80%;
+}
+.colored{
+    color: var(--color-primary-light);
+}
+.cta-button {
+    background: var(--color-primary-light);
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s;
+    font-size: 1.5rem;
+}
+.cta-button2 {
+    background: var(--color-primary);
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s;
+    font-size: 1.5rem;
+}
+
+.cta-button:hover {
+    background-color: #8d6eef;
+    translate: translateY(-2px);
+}
+.lowertitle {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 50%;
+}
+
+
+.whoami{
+    width: 100%;
+    background-color: #0b1118;
+    color: #fff;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.content img {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+@media (max-width: 1560px) {
+    .title{
+        width: 70%;
+    }
+}
+@media (max-width: 1060px) {
+    .title{
+        width: 100%;
+    }
+}
+@media (max-width: 750px) {
+    .title{
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+@media (max-width: 900px) {
+    .content img {
+        display: none;
+    }
+}

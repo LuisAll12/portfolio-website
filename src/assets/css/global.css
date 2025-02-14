@@ -1,0 +1,49 @@
+:root {
+    /* Primary Colors */
+    --color-primary: #5529ee;
+    --color-primary-light: #8d6eef;
+    
+    /* Secondary Color */
+    --color-secondary: #22c3f7;
+    
+    /* Grayscale - Dark */
+    --color-dark-1: #101721;
+    --color-dark-2: #161a25;
+    --color-dark-3: #181c28;
+    --color-dark-4: #1d2331;
+    --color-dark-5: #252837;
+    --color-dark-6: #2f3646;
+    
+    /* Grayscale - Light */
+    --color-light-1: #3f4656;
+    --color-light-2: #6b7485;
+    --color-light-3: #99a4b8;
+    --color-light-4: #e4ecf9;
+    --color-light-5: #ffffff;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(90deg, #5529ee, #8d6eef);
+    --gradient-background: linear-gradient(90deg, #101721, #161a25);
+    /* Alerts */
+    --color-alert: #58ca82;
+    --color-error: #d04763;
+    --color-warning: #f6d77a;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-dark-3);
+    font-family: "Nunito", "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: var(--gradient-background);
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
