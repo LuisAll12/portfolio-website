@@ -1,20 +1,37 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
+// State variables
 const age = ref(0);
+const skills = ref([
+  { id: 2, name: 'HTML', icon: '../assets/pictures/icons/html.png', experience: '02-2024' },
+  { id: 3, name: 'CSS', icon: '../assets/pictures/icons/css.png', experience: '02-2024' },
+  { id: 4, name: 'JavaScript', icon: '../assets/pictures/icons/js.png', experience: '04-2024' },
+  { id: 1, name: 'C#', icon: '../assets/pictures/icons/csharp.png', experience: '08-2023' },
+  { id: 5, name: 'VueJs', icon: '../assets/pictures/icons/vuejs.png', experience: '08-2024' },
+  { id: 6, name: 'Python', icon: '../assets/pictures/icons/python.png', experience: '08-2024' },
+  { id: 7, name: 'SQL', icon: '../assets/pictures/icons/sql.png', experience: '02-2024' } // Unique ID for SQL
+]);
 
+// Function to format experience date (MM-YYYY to "MM/YYYY")
+const formatDate = (date) => {
+  const [month, year] = date.split('-');
+  return `${month}/${year}`;
+};
+
+// Calculate age
 onMounted(() => {
-    const birthDate = new Date(2008, 5, 19); // Monat 5 = Juni (0-basiert)
-    const today = new Date();
-    
-    let calculatedAge = today.getFullYear() - birthDate.getFullYear();
-    const monthDiff = today.getMonth() - birthDate.getMonth();
-    
-    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
-        calculatedAge--;
-    }
-    
-    age.value = calculatedAge;
+  const birthDate = new Date(2008, 5, 19); // Month 5 = June (0-based)
+  const today = new Date();
+
+  let calculatedAge = today.getFullYear() - birthDate.getFullYear();
+  const monthDiff = today.getMonth() - birthDate.getMonth();
+
+  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+    calculatedAge--;
+  }
+
+  age.value = calculatedAge;
 });
 </script>
 
@@ -24,54 +41,92 @@ onMounted(() => {
             <div class="title-left">
                 <h1>Hi, I'm <br><span class="colored">Luis Allamand</span></h1>
                 <br>
-                <p>I am currently doing my apprenticeship as an application developer at the IMS in lucerne</p>
+                <p>I am currently doing my apprenticeship as an application developer at the IMS in Lucerne.</p>
                 <br>
-                <div class="lowertitle">
-                    <a class="btn-github" href="https://github.com/LuisAll12?tab=overview&from=2025-02-01&to=2025-02-17">
-                        <svg
-                            width="16"
-                            height="16"
-                            viewBox="0 0 16 16"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                        <path
-                            d="M7.99992 1.33331C7.12444 1.33331 6.25753 1.50575 5.4487 1.84078C4.63986 2.17581 3.90493 2.66688 3.28587 3.28593C2.03563 4.53618 1.33325 6.23187 1.33325 7.99998C1.33325 10.9466 3.24659 13.4466 5.89325 14.3333C6.22659 14.3866 6.33325 14.18 6.33325 14C6.33325 13.8466 6.33325 13.4266 6.33325 12.8733C4.48659 13.2733 4.09325 11.98 4.09325 11.98C3.78659 11.2066 3.35325 11 3.35325 11C2.74659 10.5866 3.39992 10.6 3.39992 10.6C4.06659 10.6466 4.41992 11.2866 4.41992 11.2866C4.99992 12.3 5.97992 12 6.35992 11.84C6.41992 11.4066 6.59325 11.1133 6.77992 10.9466C5.29992 10.78 3.74659 10.2066 3.74659 7.66665C3.74659 6.92665 3.99992 6.33331 4.43325 5.85998C4.36659 5.69331 4.13325 4.99998 4.49992 4.09998C4.49992 4.09998 5.05992 3.91998 6.33325 4.77998C6.85992 4.63331 7.43325 4.55998 7.99992 4.55998C8.56659 4.55998 9.13992 4.63331 9.66659 4.77998C10.9399 3.91998 11.4999 4.09998 11.4999 4.09998C11.8666 4.99998 11.6333 5.69331 11.5666 5.85998C11.9999 6.33331 12.2533 6.92665 12.2533 7.66665C12.2533 10.2133 10.6933 10.7733 9.20659 10.94C9.44659 11.1466 9.66659 11.5533 9.66659 12.1733C9.66659 13.0666 9.66659 13.7866 9.66659 14C9.66659 14.18 9.77325 14.3933 10.1133 14.3333C12.7599 13.44 14.6666 10.9466 14.6666 7.99998C14.6666 7.1245 14.4941 6.25759 14.1591 5.44876C13.8241 4.63992 13.333 3.90499 12.714 3.28593C12.0949 2.66688 11.36 2.17581 10.5511 1.84078C9.7423 1.50575 8.8754 1.33331 7.99992 1.33331V1.33331Z"
-                            fill="currentcolor"
-                            ></path>
-                        </svg>
-                        <span>View on Github</span>
-                    </a>
+                    <div class="lowertitle">
+                        <a class="btn-github" href="https://github.com/LuisAll12">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.99992 1.33331C7.12444..." fill="currentcolor"></path>
+                            </svg>
+                            <span>View on Github</span>
+                        </a>
+                    </div>
                 </div>
-            </div>
             <div class="title-right">
-                <img src="../assets/images/Portrait_Luis.jpeg" alt="">
+                <img src="../assets/images/Portrait_Luis.jpeg" alt="Luis Allamand">
             </div>
         </div>
-        <br>
 
+        <!-- About Section -->
+        <h2 id="About-Title" class="section-title">About</h2>
         <div class="whoami">
-            
             <div class="content">
-                <img src="../assets/images/WhoAmI.jpg" alt="">
+                <img src="../assets/images/WhoAmI.jpg" alt="Who am I?">
                 <div class="text">
                     <h2>Who am I?</h2>
                     <br>
-                    <p>I am a {{ age }} year old student at the IMS in Lucerne. I am currently doing my apprenticeship as an application developer. I am a very open and communicative person. I am always open to new things and I am always looking for new challenges.</p>
-                    <p>In my free time, I pursue my hobbies and usually go sailing on the water, because that's what I enjoy most, apart from talking to colleagues. </p>
-                    <p>When I'm sitting inside and working on the computer, there's nothing else for me but coding or finding out about new things like current world and economic issues. Building a new website or trying out a new API, I love the challenges, I learnt that from sailing. </p>
+                    <p>I am a {{ age }} year old student at the IMS in Lucerne...</p>
+                    <p>In my free time, I go sailing and enjoy new challenges.</p>
+                    <p>When I'm indoors, I love coding and learning about tech and world affairs.</p>
                 </div>
             </div>
+        </div>
+
+        <!-- Skills Section -->
+        <h2 id="Skills-Title" class="section-title">Coding Skills</h2>
+        <div class="skills-container">
+            <div class="skills">
+                <h4>My Skills</h4>
+                <p>Despite my short time in software programming, I have already learned several languages and frameworks.</p>
+                <div v-for="skill in skills" :key="skill.id" class="skill-list">
+                    <!-- <img :src="skill.icon" :alt="skill.name" class="skill-icon" /> -->
+                    <div class="skill-info">
+                        <h3>{{ skill.name }}</h3>
+                        <p>Since: {{ formatDate(skill.experience) }}</p>
+                    </div>
+                </div>
+            </div>
+            <img class="skills-img" src="../assets/images/Coding-Picture.jpg" alt="">
         </div>
     </div>
 </template>
 
 <style scoped>
-    @import '../assets/css/components/home.css';
+@import '../assets/css/components/home.css';
 
-    html, body{
-        margin: 0;
-        padding: 0;
-    }
-    
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill-list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f8f8f8;
+}
+
+.skill-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.skill-info h3 {
+  margin: 0;
+}
+
+.skill-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
 </style>
