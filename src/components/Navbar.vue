@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+import { RouterLink } from 'vue-router';
 
 const isOpen = ref(false);
 </script>
@@ -7,13 +8,13 @@ const isOpen = ref(false);
 <template>
     <nav class="navbar">
         <div class="logo">
-            <span class="colored">L</span><span class="white">uis</span> <span class="colored">A</span><span class="white">llamand</span>
+            <RouterLink class="RouterLink" to="/"><span class="colored">L</span><span class="white">uis</span> <span class="colored">A</span><span class="white">llamand</span></RouterLink>
         </div>
         <button class="menu-toggle" @click="isOpen = !isOpen">☰</button>
         <ul :class="['nav-links', { 'open': isOpen }]">
-            <li><a href="#" >Why Us</a></li>
-            <li><a href="#" >Case Studies</a></li>
-            <li><a href="#" >Testimonials</a></li>
+            <li><RouterLink to="/cv" >CV</RouterLink></li>
+            <li><RouterLink to="/projects" >Projects</RouterLink></li>
+            <li><RouterLink to="/" >Who am I</RouterLink></li>
             <li><a href="#" >FAQ</a></li>
         </ul>
         <button class="cta-button">
@@ -59,6 +60,11 @@ span {
 }
 
 .nav-links li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+.RouterLink {
     text-decoration: none;
     color: white;
     transition: color 0.3s;
