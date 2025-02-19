@@ -10,34 +10,33 @@ import sqlIcon from '../assets/images/icons/sql.png';
 // State variables
 const age = ref(0);
 const skills = ref([
-  { id: 2, name: 'HTML', icon: htmlIcon, experience: '02-2024' },
-  { id: 3, name: 'CSS', icon: cssIcon, experience: '02-2024' },
-  { id: 4, name: 'JavaScript', icon: jsIcon, experience: '04-2024' },
-  { id: 1, name: 'C#', icon: csharpIcon, experience: '08-2023' },
-  { id: 5, name: 'VueJs', icon: vueJsIcon, experience: '08-2024' },
-  { id: 6, name: 'Python', icon: pythonIcon, experience: '08-2024' },
-  { id: 7, name: 'SQL', icon: sqlIcon, experience: '02-2024' } // Unique ID for SQL
+    { id: 2, name: 'HTML', icon: htmlIcon, experience: '02-2024' },
+    { id: 3, name: 'CSS', icon: cssIcon, experience: '02-2024' },
+    { id: 4, name: 'JavaScript', icon: jsIcon, experience: '04-2024' },
+    { id: 1, name: 'C#', icon: csharpIcon, experience: '08-2023' },
+    { id: 5, name: 'Vue.js', icon: vueJsIcon, experience: '08-2024' },
+    { id: 6, name: 'Python', icon: pythonIcon, experience: '08-2024' },
+    { id: 7, name: 'SQL', icon: sqlIcon, experience: '02-2024' } 
 ]);
 
-// Function to format experience date (MM-YYYY to "MM/YYYY")
+
 const formatDate = (date) => {
-  const [month, year] = date.split('-');
-  return `${month}/${year}`;
+    const [month, year] = date.split('-');
+    return `${month}/${year}`;
 };
 
-// Calculate age
 onMounted(() => {
-  const birthDate = new Date(2008, 5, 19); // Month 5 = June (0-based)
-  const today = new Date();
+    const birthDate = new Date(2008, 5, 19); 
+    const today = new Date();
 
-  let calculatedAge = today.getFullYear() - birthDate.getFullYear();
-  const monthDiff = today.getMonth() - birthDate.getMonth();
+    let calculatedAge = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
 
-  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
-    calculatedAge--;
-  }
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+        calculatedAge--;
+    }
 
-  age.value = calculatedAge;
+    age.value = calculatedAge;
 });
 
 </script>
@@ -52,8 +51,8 @@ onMounted(() => {
                 <br>
                     <div class="lowertitle">
                         <a class="btn-github" href="https://github.com/LuisAll12">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.99992 1.33331C7.12444..." fill="currentcolor"></path>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="color: white;">
+                                <path d="M7.99992 1.33331C7.12444..." fill="currentColor"></path>
                             </svg>
                             <span>View on Github</span>
                         </a>
@@ -85,8 +84,9 @@ onMounted(() => {
             <div class="skills">
                 <h4>My Skills</h4>
                 <p>Despite my short time in software programming, I have already learned several languages and frameworks.</p>
+                <br>
                 <div v-for="skill in skills" :key="skill.id" class="skill-list">
-                  <img :src="skill.icon" :alt="skill.name" class="skill-icon" />
+                    <img :src="skill.icon" :alt="skill.name" class="skill-icon" />
                     <div class="skill-info">
                         <h3>{{ skill.name }}</h3>
                         <p>Since: {{ formatDate(skill.experience) }}</p>
@@ -102,7 +102,7 @@ onMounted(() => {
 @import '../assets/css/components/home.css';
 
 html, body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 </style>
