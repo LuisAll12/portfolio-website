@@ -1,16 +1,22 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-
+import htmlIcon from '../assets/images/icons/html.png';
+import cssIcon from '../assets/images/icons/css.png';
+import jsIcon from '../assets/images/icons/js.png';
+import csharpIcon from '../assets/images/icons/csharp.png';
+import vueJsIcon from '../assets/images/icons/vuejs.png';
+import pythonIcon from '../assets/images/icons/python.png';
+import sqlIcon from '../assets/images/icons/sql.png';
 // State variables
 const age = ref(0);
 const skills = ref([
-  { id: 2, name: 'HTML', icon: '../assets/pictures/icons/html.png', experience: '02-2024' },
-  { id: 3, name: 'CSS', icon: '../assets/pictures/icons/css.png', experience: '02-2024' },
-  { id: 4, name: 'JavaScript', icon: '../assets/pictures/icons/js.png', experience: '04-2024' },
-  { id: 1, name: 'C#', icon: '../assets/pictures/icons/csharp.png', experience: '08-2023' },
-  { id: 5, name: 'VueJs', icon: '../assets/pictures/icons/vuejs.png', experience: '08-2024' },
-  { id: 6, name: 'Python', icon: '../assets/pictures/icons/python.png', experience: '08-2024' },
-  { id: 7, name: 'SQL', icon: '../assets/pictures/icons/sql.png', experience: '02-2024' } // Unique ID for SQL
+  { id: 2, name: 'HTML', icon: htmlIcon, experience: '02-2024' },
+  { id: 3, name: 'CSS', icon: cssIcon, experience: '02-2024' },
+  { id: 4, name: 'JavaScript', icon: jsIcon, experience: '04-2024' },
+  { id: 1, name: 'C#', icon: csharpIcon, experience: '08-2023' },
+  { id: 5, name: 'VueJs', icon: vueJsIcon, experience: '08-2024' },
+  { id: 6, name: 'Python', icon: pythonIcon, experience: '08-2024' },
+  { id: 7, name: 'SQL', icon: sqlIcon, experience: '02-2024' } // Unique ID for SQL
 ]);
 
 // Function to format experience date (MM-YYYY to "MM/YYYY")
@@ -33,6 +39,7 @@ onMounted(() => {
 
   age.value = calculatedAge;
 });
+
 </script>
 
 <template>
@@ -79,7 +86,7 @@ onMounted(() => {
                 <h4>My Skills</h4>
                 <p>Despite my short time in software programming, I have already learned several languages and frameworks.</p>
                 <div v-for="skill in skills" :key="skill.id" class="skill-list">
-                    <!-- <img :src="skill.icon" :alt="skill.name" class="skill-icon" /> -->
+                  <img :src="skill.icon" :alt="skill.name" class="skill-icon" />
                     <div class="skill-info">
                         <h3>{{ skill.name }}</h3>
                         <p>Since: {{ formatDate(skill.experience) }}</p>
@@ -97,36 +104,5 @@ onMounted(() => {
 html, body {
   margin: 0;
   padding: 0;
-}
-
-.skills-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.skill-list {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background: #f8f8f8;
-}
-
-.skill-icon {
-  width: 40px;
-  height: 40px;
-}
-
-.skill-info h3 {
-  margin: 0;
-}
-
-.skill-info p {
-  margin: 0;
-  font-size: 0.9rem;
-  color: #666;
 }
 </style>

@@ -107,10 +107,16 @@
     .title, .skills-container{
         width: 70%;
     }
+    .skills-img{
+        width: 70%;
+    }
 }
 @media (max-width: 1060px) {
     .title, .skills-container{
         width: 100%;
+    }
+    .skills-img{
+        display: none;
     }
 }
 @media (max-width: 750px) {
@@ -119,11 +125,24 @@
         flex-direction: column;
         gap: 2rem;
     }
+    .skills-container{
+    justify-content: center;
+    width: 100%;
+    }
 }
 @media (max-width: 900px) {
     .content img {
         display: none;
     }
+}
+@media (max-width: 650px) {
+    .skill-icon {
+        display: none;
+    }
+    .skills-container{
+        width: 100%;
+        display: block;
+        }
 }
 
 .btn-github {
@@ -199,10 +218,9 @@
     align-items: center;
     gap: 1rem;
     padding: 15px;
-    border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: var(--color-dark-6); /* Setzt die komplette Box auf dunkel */
-    margin: 10px;
+    background-color: var(--color-dark-3); /* Setzt die komplette Box auf dunkel */
+    margin: 0 10px 10px 0;
     width: 100%;
 }
 
@@ -211,8 +229,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0.5rem;
-    background-color: var(--color-dark-6);
+    width: 100%;
 }
 .skill-icon {
     width: 40px;
@@ -221,11 +238,11 @@
 
 .skill-info h3 {
     margin: 0;
-    color: #0b1118;
+    color: var(--color-primary-light);
 }
 
 .skill-info p {
     margin: 0;
     font-size: 0.9rem;
-    color: #0b1118;
+    color: #fff;
 }
