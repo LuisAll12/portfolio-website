@@ -72,7 +72,7 @@ onMounted(() => {
                 <div class="text">
                     <h2>Who am I?</h2>
                     <br>
-                    <p>I am a {{ age }} year old student at the IMS in Lucerne...</p>
+                    <p>I am a {{ age }} year old student at the IMS Lucerne.</p>
                     <p>In my free time, I go sailing and enjoy new challenges.</p>
                     <p>When I'm indoors, I love coding and learning about tech and world affairs.</p>
                 </div>

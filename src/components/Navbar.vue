@@ -14,7 +14,7 @@ const isOpen = ref(false);
         <ul :class="['nav-links', { 'open': isOpen }]">
             <li><RouterLink to="/cv" >CV</RouterLink></li>
             <li><RouterLink to="/projects" >Projects</RouterLink></li>
-            <li><RouterLink to="/" >Who am I</RouterLink></li>
+            <li><a href="#About-Title" >Who am I</a></li>
             <li><a href="#" >FAQ</a></li>
         </ul>
         <button class="cta-button">
