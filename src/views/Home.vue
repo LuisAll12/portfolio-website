@@ -93,7 +93,7 @@ onMounted(() => {
                     </div>
                 </div>
             </div>
-            <img class="skills-img" src="../assets/images/Coding-Picture.jpg" alt="">
+            <img class="skills-img" src="../assets/images/Coding-Picture.jpeg" alt="">
         </div>
     </div>
 </template>
