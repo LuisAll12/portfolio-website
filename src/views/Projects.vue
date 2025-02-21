@@ -142,8 +142,7 @@
                         <span class="Project-Scope">Scope: <span id="state-value">private</span></span>
                     </div>
                     <br>
-                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/Machinelearning-dataanalysis">github.com/ML-DA
-                    </a>
+                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/Machinelearning-dataanalysis">github.com/ML-DA</a>
                 </div>
             </div>
 
@@ -166,8 +165,7 @@
                         <span class="Project-Scope">Scope: <span id="state-value">hackathon</span></span>
                     </div>
                     <br>
-                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/Affing-PHP">github.com/Affing-PHP
-                    </a>
+                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/Affing-PHP">github.com/Affing-PHP</a>
                 </div>
             </div>
 
@@ -175,27 +173,26 @@
                 <div class="main-content">
                     <div class="header">
                         <span>Project on</span>
-                        <span>18-Oct-2024</span>
+                        <span>11-Feb-2025</span>
                     </div>
-                    <p class="heading">Affing-PHP</p>
+                    <p class="heading">Portfolio-Website</p>
                     <div class="categories">
-                        <span>PHP, CSS, HTML</span>
+                        <span>VueJS, CSS, JavaScript</span>
                     </div>
                     <br>
-                    <p>This project was developed at a hackathon in Lucerne 2024. Me and my team were able to develop this affiliate marketing tool in 30 hours, without any prior knowledge of php. My 4 team colleagues mainly worked on the backend. It was a lot of fun and we would do it again.</p>
+                    <p>This project features the website you're currently viewing. I created it to showcase my passion for programming and my commitment to going the extra mile. It serves as a quick, organized overview of the projects I've built and take pride in.</p>
                 </div>
                 <div class="footer">
                     <div class="info">
-                        <span class="Project-state">State: <span id="state-value">completed</span></span>
-                        <span class="Project-Scope">Scope: <span id="state-value">hackathon</span></span>
+                        <span class="Project-state">State: <span id="state-value">ongoing</span></span>
+                        <span class="Project-Scope">Scope: <span id="state-value">private</span></span>
                     </div>
                     <br>
-                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/Affing-PHP">github.com/Affing-PHP
-                    </a>
+                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/portfolio-website">github.com/portfolio-website</a>
                 </div>
             </div>
 
-            
+
         </div>
     </div>
 </template>
