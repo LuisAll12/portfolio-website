@@ -123,6 +123,79 @@
                 </div>
             </div>
 
+            <div class="card">
+                <div class="main-content">
+                    <div class="header">
+                        <span>Project on</span>
+                        <span>27-Sep-2024</span>
+                    </div>
+                    <p class="heading">Machinelearning&Data-analysis</p>
+                    <div class="categories">
+                        <span>Python, Jupiter-Notebook</span>
+                    </div>
+                    <br>
+                    <p>This project was motivated by my ÜK grade, which suffered due to a misunderstanding—I created two models for two problems instead of one. My teachers’ strict feedback pushed me to prove myself again, and I also took on this challenge out of personal interest.</p>
+                </div>
+                <div class="footer">
+                    <div class="info">
+                        <span class="Project-state">State: <span id="state-value">completed</span></span>
+                        <span class="Project-Scope">Scope: <span id="state-value">private</span></span>
+                    </div>
+                    <br>
+                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/Machinelearning-dataanalysis">github.com/ML-DA
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="main-content">
+                    <div class="header">
+                        <span>Project on</span>
+                        <span>18-Oct-2024</span>
+                    </div>
+                    <p class="heading">Affing-PHP</p>
+                    <div class="categories">
+                        <span>PHP, CSS, HTML</span>
+                    </div>
+                    <br>
+                    <p>This project was developed at a hackathon in Lucerne 2024. Me and my team were able to develop this affiliate marketing tool in 30 hours, without any prior knowledge of php. My 4 team colleagues mainly worked on the backend. It was a lot of fun and we would do it again.</p>
+                </div>
+                <div class="footer">
+                    <div class="info">
+                        <span class="Project-state">State: <span id="state-value">completed</span></span>
+                        <span class="Project-Scope">Scope: <span id="state-value">hackathon</span></span>
+                    </div>
+                    <br>
+                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/Affing-PHP">github.com/Affing-PHP
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="main-content">
+                    <div class="header">
+                        <span>Project on</span>
+                        <span>18-Oct-2024</span>
+                    </div>
+                    <p class="heading">Affing-PHP</p>
+                    <div class="categories">
+                        <span>PHP, CSS, HTML</span>
+                    </div>
+                    <br>
+                    <p>This project was developed at a hackathon in Lucerne 2024. Me and my team were able to develop this affiliate marketing tool in 30 hours, without any prior knowledge of php. My 4 team colleagues mainly worked on the backend. It was a lot of fun and we would do it again.</p>
+                </div>
+                <div class="footer">
+                    <div class="info">
+                        <span class="Project-state">State: <span id="state-value">completed</span></span>
+                        <span class="Project-Scope">Scope: <span id="state-value">hackathon</span></span>
+                    </div>
+                    <br>
+                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/Affing-PHP">github.com/Affing-PHP
+                    </a>
+                </div>
+            </div>
+
+            
         </div>
     </div>
 </template>
