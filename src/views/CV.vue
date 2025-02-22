@@ -45,67 +45,116 @@
             <br><hr><br>
             <div class="content">
                 <!-- WorkExperience -->
-                    <div class="container" id="WorkExperience">
-                        <h1 class="content-title">ARBEITSERFAHRUNG</h1>
-                        <!-- Items -->
-                        <div class="item">
-                            <h2 class="position"><em>Social Media Contentcreator,</em></h2>
-                            <p class="company">Mrs. Sporty Luzern</p>
-                            <p class="company-description">Grösstes Franchise-Unternehmen Europas im Bereich Frauengymnastik</p>
-                            <p class="date"><i>06/2024 - Derzeit</i></p>
-                            <div class="servicestasks">
-                                <p class="servicestasks-title">Leistungen/Aufgaben:</p>
-                                <ul class="servicestasks-list">
-                                    <li class="servicestasks-list-item">Erstellen von Video und Foto Inhalten.</li>
-                                    <li class="servicestasks-list-item">Management und Optimierung von Social-Media-Kampagnen mit Meta-Business Manager.</li>
-                                </ul>
-                            </div>
-                            <p class="contact"><span class="contact-title">📞 Kontakt:</span>Bolli Nick +41 78 899 04 84</p>
-                        </div>
+                    <div class="side">
+                        <div class="container" id="WorkExperience">
+                            <h1 class="content-title">ARBEITSERFAHRUNG</h1>
+                            <!-- Items -->
+                                <div class="item">
+                                    <h2 class="position"><em>Social Media Contentcreator,</em></h2>
+                                    <p class="company">Mrs. Sporty Luzern</p>
+                                    <p class="company-description">Grösstes Franchise-Unternehmen Europas im Bereich Frauengymnastik</p>
+                                    <p class="date"><i>06/2024 - Derzeit</i></p>
+                                    <div class="servicestasks">
+                                        <p class="servicestasks-title">Leistungen/Aufgaben:</p>
+                                        <ul class="servicestasks-list">
+                                            <li class="servicestasks-list-item">Erstellen von Video und Foto Inhalten.</li>
+                                            <li class="servicestasks-list-item">Management und Optimierung von Social-Media-Kampagnen mit Meta-Business Manager.</li>
+                                        </ul>
+                                    </div>
+                                    <p class="contact"><span class="contact-title">📞 Kontakt:</span>Bolli Nick +41 78 899 04 84</p>
+                                </div>
 
-                        <div class="item">
-                            <h2 class="title"><em>Applikationsentwickler Remote,</em></h2>
-                            <p class="company">Prodega, Transgourment</p>
-                            <p class="company-description">Prodega/Transgourmet der führende Lebensmittel-Großhändler in der Schweiz</p>
-                            <p class="date"><i>01/2024</i></p>
-                            <div class="servicestasks">
-                                <p class="servicestasks-title">Leistungen/Aufgaben</p>
-                                <ul class="servicestasks-list">
-                                    <li class="servicestasks-list-item">Entwicklung einer Website für ein Firmen-Event</li>
-                                    <li class="servicestasks-list-item">Fullstack Webapplikation</li>
-                                    <li class="servicestasks-list-item">Vue.js, JavaScript und CSS</li>
-                                </ul>
-                            </div>
-                            <p class="contact"><span class="contact-title">📞 Kontakt:</span>Allamand Josa +41 79 829 95 72</p>
-                        </div>
+                                <div class="item">
+                                    <h2 class="title"><em>Applikationsentwickler Remote,</em></h2>
+                                    <p class="company">Prodega, Transgourment</p>
+                                    <p class="company-description">Prodega/Transgourmet der führende Lebensmittel-Großhändler in der Schweiz</p>
+                                    <p class="date"><i>01/2024</i></p>
+                                    <div class="servicestasks">
+                                        <p class="servicestasks-title">Leistungen/Aufgaben</p>
+                                        <ul class="servicestasks-list">
+                                            <li class="servicestasks-list-item">Entwicklung einer Website für ein Firmen-Event</li>
+                                            <li class="servicestasks-list-item">Fullstack Webapplikation</li>
+                                            <li class="servicestasks-list-item">Vue.js, JavaScript und CSS</li>
+                                        </ul>
+                                    </div>
+                                    <p class="contact"><span class="contact-title">📞 Kontakt:</span>Allamand Josa +41 79 829 95 72</p>
+                                </div>
 
-                        <div class="item">
-                            <h2 class="title"><em>Hackathon-Teilnahme,</em></h2>
-                            <p class="company">UMB & ICT-BZ</p>
-                            <p class="company-description"></p>
-                            <p class="date"><i>10/2024</i></p>
-                            <div class="servicestasks">
-                                <p class="servicestasks-title">Porjekt</p>
-                                <ul class="servicestasks-list">
-                                    <li class="servicestasks-list-item">Affiliate-Marketing System</li>
-                                    <li class="servicestasks-list-item">PHP, HTML, CSS, XAMMP</li>
-                                    <li class="servicestasks-list-item">GitHub: <a href="https://github.com/LuisAll12/Affing-PHP">LuisAll12/Affing-PHP</a></li>
-                                </ul>
+                                <div class="item">
+                                    <h2 class="title"><em>Hackathon-Teilnahme,</em></h2>
+                                    <p class="company">UMB & ICT-BZ</p>
+                                    <p class="company-description"></p>
+                                    <p class="date"><i>10/2024</i></p>
+                                    <div class="servicestasks">
+                                        <p class="servicestasks-title">Porjekt</p>
+                                        <ul class="servicestasks-list">
+                                            <li class="servicestasks-list-item">Affiliate-Marketing System</li>
+                                            <li class="servicestasks-list-item">PHP, HTML, CSS, XAMMP</li>
+                                            <li class="servicestasks-list-item">GitHub: <a href="https://github.com/LuisAll12/Affing-PHP">LuisAll12/Affing-PHP</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
+
+                    <!-- Education -->
+                        <div class="container" id="Education">
+                            <h1 class="content-title">AUSBILDUNG</h1>
+                            <!-- Items -->
+                                <div class="item">
+                                    <h2 class="title">Applikationsentwickler(EFZ) Informatikmittelschule,</h2>
+                                    <p class="company">Fachmittelschule Luzern</p>
+                                    <p class="date"><i>08/2023 - 08/2027</i></p>
+                                </div>
                         </div>
                     </div>
+                    
+                    <div class="side">
+                    <!-- Skills -->
+                        <div class="container" id="Skills">
+                            <h1 class="content-title">SKILLS</h1>
+                            <!-- Items -->
+                                <div class="item">
+                                    <h2 class="content-title">Programmiersprachen & Technologien:</h2>
+                                    <ul class="skills-list">
+                                        <li class="skills-list-item">Vue.js, PHP, Python</li>
+                                        <li class="skills-list-item">HTML, CSS, Javascript</li>
+                                        <li class="skills-list-item">C# (inkl. WPF & Windows Forms)</li>
+                                        <li class="skills-list-item">MySQL, T-SQL</li>
+                                        <li class="skills-list-item">Git, XAMMP</li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <h2 class="content-title">Software & Tools: </h2>
+                                    <ul class="skills-list">
+                                        <li class="skills-list-item">VS Code & VisualStudio, JetBrains</li>
+                                        <li class="skills-list-item">Figma, Vercel, Airtable</li>
+                                        <li class="skills-list-item">Adobe, Office 356</li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <h2 class="content-title">Soft Skills: </h2>
+                                    <ul class="skills-list">
+                                        <li class="skills-list-item">Teamarbeit & Kommunikation</li>
+                                        <li class="skills-list-item">Problemlösung & analytisches Denken</li>
+                                        <li class="skills-list-item">Eigenständiges Arbeiten</li>
+                                        <li class="skills-list-item">Kritikfähigkeit & Flexibilität</li>
+                                    </ul>
+                                </div>
+                        </div>
 
-                <!-- Education -->
-                    <div class="container" id="Education"></div>
+                    <!-- Languages -->
+                        <div class="container" id="Languages">
+                            <h1 class="content-title">SPRACHEN</h1>
+                            <!-- Items -->
+                                <p class="language-item">Deutsch - Muttersprache</p>
+                                <p class="language-item">Englisch - Fliessend (B2/C1)</p>
+                                <p class="language-item">Französisch - Grundkentnisse (A2/B1)</p>
+                        </div>
 
-                <!-- Skills -->
-                    <div class="container" id="Skills"></div>
+                    <!-- HobbysInterests -->
+                        <div class="container" id="HobbysInterests"></div>
+                    </div>
 
-                <!-- Languages -->
-                    <div class="container" id="Languages"></div>
-
-                <!-- HobbysInterests -->
-                    <div class="container" id="HobbysInterests"></div>
             </div>
         </div>
     </div>
