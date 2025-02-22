@@ -49,10 +49,10 @@
                         <h1 class="content-title">ARBEITSERFAHRUNG</h1>
                         <!-- Items -->
                         <div class="item">
-                            <h2 class="position">Social Media Contentcreator,</h2>
+                            <h2 class="position"><em>Social Media Contentcreator,</em></h2>
                             <p class="company">Mrs. Sporty Luzern</p>
                             <p class="company-description">Grösstes Franchise-Unternehmen Europas im Bereich Frauengymnastik</p>
-                            <p class="date">06/2024 - Derzeit</p>
+                            <p class="date"><i>06/2024 - Derzeit</i></p>
                             <div class="servicestasks">
                                 <p class="servicestasks-title">Leistungen/Aufgaben:</p>
                                 <ul class="servicestasks-list">
@@ -64,35 +64,35 @@
                         </div>
 
                         <div class="item">
-                            <h2 class="title"></h2>
-                            <p class="company"></p>
-                            <p class="company-description"></p>
-                            <p class="date"></p>
+                            <h2 class="title"><em>Applikationsentwickler Remote,</em></h2>
+                            <p class="company">Prodega, Transgourment</p>
+                            <p class="company-description">Prodega/Transgourmet der führende Lebensmittel-Großhändler in der Schweiz</p>
+                            <p class="date"><i>01/2024</i></p>
                             <div class="servicestasks">
                                 <p class="servicestasks-title">Leistungen/Aufgaben</p>
                                 <ul class="servicestasks-list">
-                                    <li class="servicestasks-list-item"></li>
-                                    <li class="servicestasks-list-item"></li>
+                                    <li class="servicestasks-list-item">Entwicklung einer Website für ein Firmen-Event</li>
+                                    <li class="servicestasks-list-item">Fullstack Webapplikation</li>
+                                    <li class="servicestasks-list-item">Vue.js, JavaScript und CSS</li>
                                 </ul>
                             </div>
-                            <p class="contact"><span class="contact-title">📞 Kontakt:</span></p>
+                            <p class="contact"><span class="contact-title">📞 Kontakt:</span>Allamand Josa +41 79 829 95 72</p>
                         </div>
 
                         <div class="item">
-                            <h2 class="title"></h2>
-                            <p class="company"></p>
+                            <h2 class="title"><em>Hackathon-Teilnahme,</em></h2>
+                            <p class="company">UMB & ICT-BZ</p>
                             <p class="company-description"></p>
-                            <p class="date"></p>
+                            <p class="date"><i>10/2024</i></p>
                             <div class="servicestasks">
-                                <p class="servicestasks-title">Leistungen/Aufgaben</p>
+                                <p class="servicestasks-title">Porjekt</p>
                                 <ul class="servicestasks-list">
-                                    <li class="servicestasks-list-item"></li>
-                                    <li class="servicestasks-list-item"></li>
+                                    <li class="servicestasks-list-item">Affiliate-Marketing System</li>
+                                    <li class="servicestasks-list-item">PHP, HTML, CSS, XAMMP</li>
+                                    <li class="servicestasks-list-item">GitHub: <a href="https://github.com/LuisAll12/Affing-PHP">LuisAll12/Affing-PHP</a></li>
                                 </ul>
                             </div>
-                            <p class="contact"><span class="contact-title">📞 Kontakt:</span></p>
                         </div>
-
                     </div>
 
                 <!-- Education -->
