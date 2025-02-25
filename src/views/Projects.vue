@@ -73,7 +73,7 @@
                         <span class="Project-Scope">Scope: <span id="state-value">costumer</span></span>
                     </div>
                     <br>
-                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/Winterweekend2025-Prodega">github.com/Winterweekend-Prodega</a>
+                    <span>Github: </span><a target="_blank" href="https://github.com/LuisAll12/Winterweekend2025Prodega">github.com/Winterweekend-Prodega</a>
                 </div>
             </div>
 
