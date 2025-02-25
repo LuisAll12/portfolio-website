@@ -7,6 +7,7 @@ import csharpIcon from '../assets/images/icons/csharp.png';
 import vueJsIcon from '../assets/images/icons/vuejs.png';
 import pythonIcon from '../assets/images/icons/python.png';
 import sqlIcon from '../assets/images/icons/sql.png';
+import gitIcon from '../assets/images/icons/git.png';
 // State variables
 const age = ref(0);
 const skills = ref([
@@ -16,7 +17,8 @@ const skills = ref([
     { id: 1, name: 'C#', icon: csharpIcon, experience: '08-2023' },
     { id: 5, name: 'Vue.js', icon: vueJsIcon, experience: '08-2024' },
     { id: 6, name: 'Python', icon: pythonIcon, experience: '08-2024' },
-    { id: 7, name: 'SQL', icon: sqlIcon, experience: '02-2024' } 
+    { id: 7, name: 'SQL', icon: sqlIcon, experience: '02-2024' },
+    { id: 8, name: 'git', icon: gitIcon, experience: '05-2024' },
 ]);
 
 
