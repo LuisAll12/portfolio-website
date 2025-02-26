@@ -61,7 +61,6 @@
                                             <li class="servicestasks-list-item">Management und Optimierung von Social-Media-Kampagnen mit Meta-Business Manager.</li>
                                         </ul>
                                     </div>
-                                    <p class="contact"><span class="contact-title">📞 Kontakt:</span>Bolli Nick +41 78 899 04 84</p>
                                 </div>
 
                                 <div class="item">
@@ -77,7 +76,6 @@
                                             <li class="servicestasks-list-item">Vue.js, JavaScript und CSS</li>
                                         </ul>
                                     </div>
-                                    <p class="contact"><span class="contact-title">📞 Kontakt:</span>Allamand Josa +41 79 829 95 72</p>
                                 </div>
 
                                 <div class="item">
@@ -128,7 +126,7 @@
                                     <ul class="skills-list">
                                         <li class="skills-list-item">VS Code & VisualStudio, JetBrains</li>
                                         <li class="skills-list-item">Figma, Vercel, Airtable</li>
-                                        <li class="skills-list-item">Adobe, Office 356</li>
+                                        <li class="skills-list-item">Adobe, Office 365</li>
                                     </ul>
                                 </div>
                                 <div class="item">
