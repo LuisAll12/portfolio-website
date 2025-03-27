@@ -3,7 +3,6 @@
 </script>
 <template>
     <div class="cv-container">
-        <h1 class="CV Title">This is my official CV in German</h1>
         <div class="cv-page">
             <div class="uppper">
                 <div class="image-container">
@@ -150,7 +149,30 @@
                         </div>
 
                     <!-- HobbysInterests -->
-                        <div class="container" id="HobbysInterests"></div>
+                        <div class="container" id="HobbysInterests">
+                            <h1 class="content-title">HOBBYS & INTERESSEN</h1>
+                            <div class="item">
+                                <h2 class="content-title">Hobbys:</h2>
+                                <ul class="hobbies-list">
+                                    <li class="hobbies-list-item">
+                                        <strong>Segeln</strong><br>
+                                        2020-2023 Im Regionalkader<br>
+                                        Top 8 Schweiz, Top 90 Europa im Optimist<br>
+                                        Aktuell Coaching in Clubs und Camps
+                                    </li>
+                                    <li class="hobbies-list-item">Ski fahren</li>
+                                </ul>
+                            </div>
+
+                            <div class="item">
+                                <h2 class="content-title">Interessen:</h2>
+                                <ul class="interests-list">
+                                    <li class="interests-list-item">Neue Fähigkeiten erlernen</li>
+                                    <li class="interests-list-item">Ökonomie, Finanzwesen, Politik</li>
+                                    <li class="interests-list-item">Segeln, Skifahren, Joggen</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
             </div>
@@ -159,4 +181,108 @@
 </template>
 <style scoped>
 @import '../assets/css/components/cv.css';
+/* General styles */
+.cv-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.content-title {
+    color: #0A2F41;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.cv-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f9f9f9;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
+/* Upper section */
+.uppper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Contact section */
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #f9f9f9;
+    
+}
+.content.item p a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Main content two-column layout */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.side {
+    flex: 1;
+    min-width: 300px;
+}
+
+.container {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.item h2, .content-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .uppper {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .content {
+        flex-direction: column;
+    }
+}
+
 </style>
