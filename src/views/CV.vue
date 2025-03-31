@@ -11,7 +11,7 @@
                 <div class="cv-title">
                     <h1 class="name">Luis Allamand</h1>
                     <p class="Position">Ausbildung/Studium: Applikationsentwickler(EFZ) an der Informatikmittelschule Luzern</p>
-                    <p class="Sentence">Kreativer Softwareentwickler mit Erfahrung in der Applikationsentwicklung einer mit Leidenschaft für die kontinuierliche Verbesserung von Produkten und Prozessen.</p>
+                    <p class="Sentence">Kreativer Softwareentwickler mit Erfahrung in der Applikationsentwicklung und Leidenschaft für die kontinuierliche Verbesserung von Produkten und Prozessen.</p>
                 </div>
             </div>
             <br><hr><br>
@@ -49,7 +49,7 @@
                             <h1 class="content-title">ARBEITSERFAHRUNG</h1>
                             <!-- Items -->
                                 <div class="item">
-                                    <h2 class="position"><em>Social Media Contentcreator,</em></h2>
+                                    <h2 class="position">Social Media Contentcreator,</h2>
                                     <p class="company">Mrs. Sporty Luzern</p>
                                     <p class="company-description">Grösstes Franchise-Unternehmen Europas im Bereich Frauengymnastik</p>
                                     <p class="date"><i>06/2024 - Derzeit</i></p>
@@ -189,7 +189,7 @@
 }
 
 .content-title {
-    color: #0A2F41;
+    color: #e4ecf9;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -201,6 +201,14 @@
 
 hr {
     border: 1px solid #ccc;
+}
+
+.item, .language-item{
+    color: #d1d5dd;
+}
+.item .title{
+    font-weight: bold;
+    color: #f9f9f9;
 }
 
 /* Upper section */
@@ -231,9 +239,9 @@ hr {
     color: #f9f9f9;
     
 }
-.content.item p a{
+p a{
     color: #f9f9f9;
-    text-decoration: none;
+    text-decoration: underline
 }
 
 .icon {
@@ -254,7 +262,7 @@ hr {
 }
 
 .container {
-    background: #f9f9f9;
+    background: #1d2331;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
